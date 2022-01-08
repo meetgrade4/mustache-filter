@@ -1,0 +1,33 @@
+body{
+    background-image: url(abccc.jpg);
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large !important;
+}
+
+#aa{
+    font-size: larger !important;
+}
+
+canvas{
+    animation-name: xp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes xp{
+    from{
+        box-shadow: 1px 1px 30px orangered;
+        border: orange 5px dotted;
+        border-radius: 0px;
+        background-color: khaki;
+    }
+    to{
+        box-shadow: 1px 1px 500px indigo;
+        border: indianred 20px dashed;
+        border-radius: 10px;
+        background-color: lavender;
+    }
+}
